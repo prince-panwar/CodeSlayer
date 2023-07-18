@@ -1,9 +1,11 @@
 import React from 'react'
-
+import Layout from "@/app/layout";
 function page() {
   return (
     <div>
-      This is BLog
+      <Layout>
+      this is  blog
+      </Layout>
     </div>
   )
 }
