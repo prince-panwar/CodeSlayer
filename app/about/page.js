@@ -7,5 +7,4 @@ function about() {
     </div>
   )
 }
-
 export default about
