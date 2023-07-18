@@ -1,9 +1,9 @@
 import React from 'react'
-import Layout from "@/app/layout";
+import Link from 'next/link'
 function page() {
   return (
     <div>
-      this is  blog
+      <Link  href={"/blog/1"}>link to blog 1</Link>
     </div>
   )
 }
